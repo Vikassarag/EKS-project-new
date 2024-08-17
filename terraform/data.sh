@@ -25,12 +25,9 @@ echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
 
 # Configure AWS CLI
 # Replace <aws_access_key_id>, <aws_secret_access_key>, <default_region> and <output_format> with your actual values
-aws configure --profile vikas<<EOF
-<AKIAVMR6LJ5SKRRF3WNW>
-<sbAvp80jGUKjz13cM5S2DzysAYfCUoPZAgYtIsnI>
-<ap-south-1>
-<json>
-EOF
+
+
+
 
 # Update kubeconfig for the specified EKS cluster
 # Replace 'region-code' with your actual AWS region code
